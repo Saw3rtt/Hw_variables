@@ -51,6 +51,12 @@ public class Main {
         var differenceWeight = firstBoxer - secondBoxer;
         System.out.println(differenceWeight);
         System.out.println();
+        var boxerDifference = secondBoxer - firstBoxer;
+        System.out.println(boxerDifference);
+        var boxerDifference1 = secondBoxer % firstBoxer;
+        System.out.println(boxerDifference1);
+
+
 
     }
 }
