@@ -55,6 +55,17 @@ public class Main {
         System.out.println(boxerDifference);
         var boxerDifference1 = secondBoxer % firstBoxer;
         System.out.println(boxerDifference1);
+        System.out.println();
+
+        var workingHours =  640;
+        var workers = workingHours / 8;
+        System.out.println("Всего работников в компании " + workers + " человек");
+        var additionalWorkers = 94;
+        var totalWorkers = workers + additionalWorkers;
+        var timeWork = workingHours / totalWorkers;
+        System.out.println("Если в компании работает " + totalWorkers + " человек," + "то всего " + timeWork + " часов работы может быть поделено между сотрудниками.");
+
+
 
 
 
